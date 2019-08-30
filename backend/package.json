@@ -1,0 +1,45 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API server",
+  "scripts": {
+    "build": "babel src -d build",
+    "start": "nodemon src/index.js --exec babel-node",
+    "serve": "npm run build && node build/index.js"
+  },
+  "repository": "github:vferdiansyah/react-express-boilerplate",
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "expressjs",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Veri Ferdiansyah",
+    "email": "veri.ferdi@gmail.com",
+    "url": "https://vferdiansyah.github.io"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/vferdiansyah/react-express-boilerplate/issues",
+  "homepage": "https://github.com/vferdiansyah/react-express-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^2.6.2",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.0"
+  }
+}

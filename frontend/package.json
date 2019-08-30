@@ -1,0 +1,45 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "React app",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": "github:vferdiansyah/react-express-boilerplate",
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Veri Ferdiansyah",
+    "email": "veri.ferdi@gmail.com",
+    "url": "https://vferdiansyah.github.io"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/vferdiansyah/react-express-boilerplate/issues",
+  "homepage": "https://github.com/vferdiansyah/react-express-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

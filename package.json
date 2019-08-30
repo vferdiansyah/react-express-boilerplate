@@ -1,0 +1,26 @@
+{
+  "name": "react-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A barebone React and Express boilerplate.",
+  "scripts": {
+    "deps:install": "./bin/install-deps.sh"
+  },
+  "repository": "github:vferdiansyah/react-express-boilerplate",
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "expressjs",
+    "react",
+    "reactjs",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Veri Ferdiansyah",
+    "email": "veri.ferdi@gmail.com",
+    "url": "https://vferdiansyah.github.io"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/vferdiansyah/react-express-boilerplate/issues",
+  "homepage": "https://github.com/vferdiansyah/react-express-boilerplate#readme"
+}
