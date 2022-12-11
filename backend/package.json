@@ -24,7 +24,7 @@
   "bugs": "https://github.com/vferdiansyah/react-express-boilerplate/issues",
   "homepage": "https://github.com/vferdiansyah/react-express-boilerplate#readme",
   "dependencies": {
-    "express": "^4.16.1",
+    "express": "^4.17.3",
     "http-errors": "^1.6.3",
     "morgan": "^1.9.1"
   },
